@@ -6,8 +6,8 @@
   --header: rgba(17,11,5,0.93);
   --border: rgba(212,146,42,0.15);
   --text:    #f0e4cf;
-  --muted:   #c8ad88;        /* was #e1c8a5 — slightly warmer, keeps hierarchy */
-  --dim:     #8a7560;        /* new: for truly secondary info like geo, type labels */
+  --muted:   #c8ad88;      
+  --dim:     #a97d50;       
   --ochre:   #d4922a;
   --terr:    #c04020;
   --water-c:  #2e7fa8;
@@ -107,9 +107,9 @@ svg#web { position: absolute; inset: 0; width: 100%; height: 100%; overflow: vis
 .panel-date { font-family: 'Space Mono', monospace; font-size: 0.54rem; color: var(--dim); margin-bottom: 0.9rem; }
 .panel-desc { font-size: 0.92rem; color: var(--text); line-height: 1.8; margin-bottom: 0.9rem; opacity: 0.88; }
 .panel-geo {
-  font-family: 'Space Mono', monospace; font-size: 0.52rem;
+  font-family: 'Space Mono', monospace; font-size: 0.6rem;
   letter-spacing: 0.08em; color: var(--dim); line-height: 1.65;
-  border-left: 2px solid rgba(212,146,42,0.3); padding-left: 0.75rem;
+  border-left: 2px solid rgba(188, 135, 49, 0.3); padding-left: 0.75rem;
   margin-bottom: 1.2rem;
 }
 .panel-divider { width: 36px; height: 1px; background: var(--ochre); opacity: 0.4; margin-bottom: 1.1rem; }
