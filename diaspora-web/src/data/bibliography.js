@@ -1,0 +1,127 @@
+export const BIBLIOGRAPHY = [
+
+  // PRIMARY SOURCES
+  {
+    id: 'du-bois-souls',
+    author: 'Du Bois, W. E. B.',
+    title: 'The Souls of Black Folk: Essays and Sketches',
+    publisher: 'University of Massachusetts Press',
+    year: '2018',
+    originalYear: '1903',
+    doi: 'https://doi.org/10.2307/j.ctv346v0g',
+    nodes: ['sorrow-songs'],
+  },
+
+  // SECONDARY SOURCES — BOOKS
+  {
+    id: 'brothers-armstrong',
+    author: 'Brothers, Thomas',
+    title: 'Louis Armstrong: Master of Modernism',
+    publisher: 'W.W. Norton',
+    year: '2014',
+    nodes: ['louis-armstrong'],
+  },
+  {
+    id: 'wilkerson-warmth',
+    author: 'Wilkerson, Isabel',
+    title: 'The Warmth of Other Suns',
+    publisher: 'Random House',
+    year: '2010',
+    nodes: ['great-migration'],
+  },
+  {
+    id: 'mcalister-rara',
+    author: 'McAlister, Elizabeth',
+    title: 'Rara! Vodou, Power, and Performance in Haiti and Its Diaspora',
+    publisher: 'University of California Press',
+    year: '2002',
+    pages: 'pp. 20–23',
+    nodes: ['rara'],
+  },
+  {
+    id: 'prahlad-folklore',
+    author: 'Prahlad, Sw. Anand (ed.)',
+    title: 'African American Folklore: An Encyclopedia for Students',
+    publisher: 'ABC-CLIO',
+    year: '2016',
+    pages: 'pp. 57–58',
+    isbn: '9781610699303',
+    nodes: ['congo-square', 'ring-shout'],
+  },
+
+  // JOURNAL ARTICLES
+  {
+    id: 'stuckey-prism',
+    author: 'Stuckey, Sterling',
+    title: '"Through the Prism of Folklore: The Black Ethos in Slavery"',
+    journal: 'Massachusetts Review',
+    volume: '9',
+    year: '1968',
+    pages: 'pp. 417–37',
+    nodes: ['ring-shout'],
+  },
+  {
+    id: 'nketia-interrelations',
+    author: 'Nketia, J. H. Kwabena',
+    title: '"The Interrelations of African Music and Dance"',
+    journal: 'Studia Musicologica Academiae Scientiarum Hungaricae',
+    volume: 'vol. 7, no. 1/4',
+    year: '1965',
+    pages: 'pp. 91–101',
+    doi: 'https://doi.org/10.2307/901416',
+    nodes: ['akan-dance', 'sankofa-symbol'],
+  },
+  {
+    id: 'regis-walton-folk',
+    author: 'Regis, Helen A. and Shana Walton',
+    title: '"Producing the Folk at the New Orleans Jazz and Heritage Festival"',
+    journal: 'The Journal of American Folklore',
+    volume: 'vol. 121, no. 482',
+    year: '2008',
+    pages: 'pp. 400–440',
+    nodes: ['ring-shout'],
+  },
+
+  // ENCYCLOPEDIA / REFERENCE
+  {
+    id: 'britannica-dunham',
+    author: 'Britannica Editors',
+    title: '"Katherine Dunham"',
+    journal: 'Encyclopedia Britannica',
+    year: '2025',
+    url: 'https://www.britannica.com/biography/Katherine-Dunham',
+    accessed: '25 February 2026',
+    nodes: ['dunham-technique', 'sankofa-symbol'],
+  },
+  {
+    id: 'britannica-kora',
+    author: 'Britannica Editors',
+    title: '"Kora"',
+    journal: 'Encyclopedia Britannica',
+    year: '2025',
+    url: 'https://www.britannica.com/art/kora-musical-instrument',
+    accessed: '25 February 2026',
+    nodes: ['lutes'],
+  },
+
+  // WEB / ARCHIVAL
+  {
+    id: 'majewski-mason-congo',
+    author: 'Majewski, Adam and Kate Mason',
+    title: '"Congo Square: Mythology and Music"',
+    journal: 'New Orleans Historical',
+    url: 'https://neworleanshistorical.org/items/show/745',
+    accessed: '26 February 2026',
+    nodes: ['congo-square'],
+  },
+  {
+    id: 'gold-coast-today',
+    author: null,
+    title: 'The Gold Coast Today',
+    volume: 'Vol. 1, No. 10',
+    publisher: 'London',
+    year: 'May 23, 1956',
+    nodes: ['louis-armstrong'],
+  },
+
+];

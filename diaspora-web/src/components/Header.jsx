@@ -1,12 +1,23 @@
-export default function Header(){
-    return(
-        <header>
-        <div>
-            <div class="h-title">Invisible Ties</div>
-            <div class="h-sub">Building the Black Diaspora Through Artifacts</div>
+export default function Header({ bibOpen, onBibClick }) {
+  return (
+    <header>
+      <div>
+        <div className="h-title">Invisible Ties</div>
+        <div className="h-sub">Building the Black Diaspora Through Artifacts</div>
+      </div>
+      <div className="h-right">
+        <div className="h-hint">
+            Click any node to explore its ties<br />
+            Click any thread to reveal the connection
         </div>
-        <div class="h-hint">Click any node to explore its ties<br/>Click any thread to reveal the connection</div>
-        </header>
+                <button
+            className={`bib-btn ${bibOpen ? 'active' : ''}`}
+            onClick={onBibClick}
+        >
+            Bibliography
+        </button>
 
-    );
+      </div>
+    </header>
+  );
 }
