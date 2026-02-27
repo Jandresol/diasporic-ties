@@ -1,4 +1,5 @@
 import { ELEM_COLOR, ELEM_LABEL } from '../data/elements';
+import ".././styles.css"
 
 export default function Node({
   node,
@@ -17,11 +18,10 @@ export default function Node({
     !isConnected &&
     !isHidden;
 
-  // EXACT original opacity logic
   const opacity = isHidden
-    ? 0.05
+    ? 0.10
     : dim
-    ? 0.12
+    ? 0.20
     : 1;
 
   const filter = isHidden
@@ -73,7 +73,7 @@ export default function Node({
       />
 
       <circle
-        r="15"
+        r="20"
         fill="none"
         stroke={color}
         strokeWidth="1"
@@ -82,7 +82,7 @@ export default function Node({
       />
 
       <circle
-        r="7"
+        r="9"
         fill={color}
         opacity="0.9"
         className="node-core"
@@ -93,7 +93,7 @@ export default function Node({
         y={ly}
         width={lw}
         height={lhTotal}
-        fill="rgba(17,11,5,0.85)"
+        fill="var(--bg)"    
         rx="3"
       />
 
@@ -106,7 +106,7 @@ export default function Node({
           fontFamily="Playfair Display, Georgia, serif"
           fontSize="9.5"
           fontWeight="600"
-          fill="#f0e4cf"
+          fill="var(--text)"
         >
           {line}
         </text>
@@ -117,7 +117,7 @@ export default function Node({
         y={ly + lhTotal + 10}
         textAnchor="middle"
         fontFamily="Space Mono, monospace"
-        fontSize="6.5"
+        fontSize="8"
         letterSpacing="1.2"
         fill={color}
         opacity="0.85"
