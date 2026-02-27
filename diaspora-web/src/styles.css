@@ -4,7 +4,7 @@
   --bg:      #110b05;
   --bg2:     #1a1008;
   --text:    #f0e4cf;
-  --muted:   #7a6548;
+  --muted:   #e1c8a5;
   --ochre:   #d4922a;
   --terr:    #c04020;
   --water-c:  #2e7fa8;
@@ -40,7 +40,7 @@ header {
 
 /* LEGEND */
 #legend {
-  position: fixed; top: 100px; right: 1.5rem; z-index: 400;
+  position: fixed; top: 100px; right: 1.5rem; z-index: 300;
   display: flex; flex-direction: column; gap: 6px;
 }
 .leg {
@@ -84,7 +84,7 @@ svg#web { position: absolute; inset: 0; width: 100%; height: 100%; overflow: vis
 
 /* SIDE PANEL */
 #panel {
-  position: fixed; left: 0; top: 70px; bottom: 0; width: 360px;
+  position: fixed; left: 0; top: 70px; bottom: 0; width: 500px;
   background: linear-gradient(to right, rgba(17,11,5,0.99) 88%, transparent);
   z-index: 400; padding: 1.8rem 2rem 2rem;
   display: flex; flex-direction: column;
@@ -118,7 +118,7 @@ svg#web { position: absolute; inset: 0; width: 100%; height: 100%; overflow: vis
 }
 .panel-name { font-size: 1.35rem; font-weight: 700; line-height: 1.15; margin-bottom: 0.25rem; }
 .panel-date { font-family: 'Space Mono', monospace; font-size: 0.52rem; color: var(--muted); margin-bottom: 0.8rem; }
-.panel-desc { font-size: 0.8rem; font-style: italic; color: var(--muted); line-height: 1.75; margin-bottom: 0.7rem; }
+.panel-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.75; margin-bottom: 0.7rem; }
 .panel-geo {
   font-family: 'Space Mono', monospace; font-size: 0.5rem;
   letter-spacing: 0.08em; color: var(--muted); line-height: 1.6;

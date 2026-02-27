@@ -1,17 +1,15 @@
 export const ELEM_COLOR = {
-  water:  '#2e7fa8',
-  root:   '#9b7248',
-  ember:  '#d04a18',
-  breath: '#6b9070',
-  thread: '#8060c0',
-  aether: '#d4922a'
+  music:  '#2e7fa8',
+  material:   '#9b7248',
+  movement:  '#d04a18',
+  myth: '#6b9070',
+  memory: '#8060c0',
 };
 
 export const ELEM_LABEL = {
-  water: 'Water',
-  root: 'Root',
-  ember: 'Ember',
-  breath: 'Breath',
-  thread: 'Thread',
-  aether: 'Aether'
+  music: 'Music',
+  material: 'Material',
+  movement: 'Movement',
+  myth: 'Myth',
+  memory: 'Memory',
 };
