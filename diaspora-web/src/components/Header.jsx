@@ -3,7 +3,7 @@ export default function Header({ bibOpen, onBibClick }) {
     <header>
       <div>
         <div className="h-title">Invisible Ties</div>
-        <div className="h-sub">Building the Black Diaspora Through Artifacts</div>
+        <div className="h-sub">Building the Black Diaspora Through Music and Dance</div>
       </div>
       <div className="h-right">
         <div className="h-hint">
