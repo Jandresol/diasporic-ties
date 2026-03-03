@@ -64,7 +64,7 @@ export const NODES = [
     date: 'c. 17th century–present',
     geo: 'American South, particularly Georgia and South Carolina Sea Islands. Retentions of West and Central African ceremonial circle forms.',
     desc: 'A counterclockwise circle dance performed by enslaved Africans and their descendants, combining song, stomping, and spiritual possession. Banned by slaveholders for its power to organize and sustain community. The Ring Shout is the root from which Black American sacred music, jazz, and hip hop\'s circular forms all descend. Sterling Stuckey argued it is the foundation of African American culture itself, the ceremony that held the community together when everything else was stripped away.',
-    video: 'https://www.youtube.com/embed/skUsJMKwsfE?si=zvbES36N74Qh6jZV',
+    video: 'https://www.youtube.com/embed/I8DyJpDMs50?si=a6QoyPYzEzDIFPWn',
   },
   {
     id: 'louisiana-bounce',
