@@ -123,5 +123,15 @@ export const BIBLIOGRAPHY = [
     year: 'May 23, 1956',
     nodes: ['louis-armstrong'],
   },
+  {
+  id: 'addo-brer-rabbit',
+  author: 'Addo, Peter E. Adotey',
+  title: '"Brer Rabbit and Ananse Stories from Africa"',
+  journal: 'AuthorsDen',
+  url: 'https://www.authorsden.com',
+  accessed: '3 July 2010',
+  archived: 'October 24, 2004',
+  nodes: ['griot'],
+},
 
 ];
