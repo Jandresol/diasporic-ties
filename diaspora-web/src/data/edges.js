@@ -21,7 +21,7 @@ export const EDGES = [
 
   // AKAN-DANCE
   { a: 'akan-dance',         b: 'jamaica-maroon',     title: 'Retention as Resistance',                body: 'Jamaica\'s Maroon communities preserved Kromanti dance, music, and political structure for centuries, the most complete African cultural retention in the English-speaking Americas. They did not preserve it as heritage. They preserved it as infrastructure: spiritual, social, military.' },
-  { a: 'akan-dance',         b: 'gullah-geechee',     title: 'Two Archives, Same Root',                body: 'Gullah-Geechee and Jamaica Maroon communities both preserved Akan cultural forms in near-complete isolation, one on the South Carolina coast, one in the mountains of Jamaica. The preservation was structural, not coordinated.' },
+  { a: 'akan-dance',         b: 'ring-shout',     title: 'Two Archives, Same Root',                body: 'Gullah-Geechee and Jamaica Maroon communities both preserved Akan cultural forms in near-complete isolation, one on the South Carolina coast, one in the mountains of Jamaica. The preservation was structural, not coordinated.' },
   { a: 'akan-dance',         b: 'sankofa-symbol',     title: 'The Symbol and the Practice',            body: 'Sankofa is an Akan symbol; Adowa dance is Akan practice. They are two expressions of the same philosophical commitment: the past is not behind you, it is in you. The symbol names the principle; the dance embodies it.' },
 
   // EASTER-ROCK
@@ -101,6 +101,7 @@ export const EDGES = [
 
   // RARA
   { a: 'rara',               b: 'dancehall',          title: 'The Street as Stage',                    body: 'Rara takes the ceremony into the open street, the procession is the performance and everyone in its path becomes part of it. Dancehall similarly claims public space as the site of communal ritual. Both traditions refuse the separation between performer and community, sacred and secular, street and ceremony.' },
+  { a: 'rara', b: 'akan-dance', title: 'Ceremony That Would Not Stop', body: 'Adowa is danced at funerals and festivals among the Akan; Rara processes through the streets during Lent, calling on the Gede, the spirits of the dead. Both are ceremonial forms in which dance is inseparable from spiritual address. The Akan brought that logic across the Atlantic. Haiti kept it alive in the street.' },
 
   // GREAT-MIGRATION
   { a: 'great-migration',    b: 'footwork',           title: 'Southern Grammar, Northern City',        body: 'Chicago footwork developed in neighborhoods populated by descendants of Southern migrants. The competitive solo logic, call-and-response battle format, and grounded rhythmic intelligence did not originate in Chicago, they were relocated there through the Great Migration.' },
