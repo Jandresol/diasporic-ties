@@ -10,7 +10,7 @@ export const NODES = [
     geo: 'Congo Square: now Louis Armstrong Park, New Orleans, Louisiana. The only place in North America where African public assembly and drumming was legally permitted during slavery.',
     desc: 'Under the Code Noir, French colonial slave law, enslaved people had Sundays off and gathered in Place des Nègres, later Congo Square. They played African instruments, danced in African forms, and spoke African languages in the center of a colonial city. The French law that tried to regulate slavery inadvertently created the cradle of American music. From Congo Square the line runs directly to Louis Armstrong, born in New Orleans, made from that root. In 1956 Armstrong played before 100,000 people in Accra, Ghana, one day before Ghanaian independence.',
     img: 'https://d2rvw07oc82cxt.cloudfront.net/wp-content/uploads/2016/12/21222129/Dancing-in-Congo-Square-copy-e1523630592926.jpg',
-    video: '',
+    video: 'https://www.youtube.com/embed/UMbLUDee41E?si=_Nr042kpTGxf4SBH',
   },
   {
     id: 'louis-armstrong',
