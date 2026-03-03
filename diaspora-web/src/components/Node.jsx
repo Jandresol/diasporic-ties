@@ -9,6 +9,17 @@ export default function Node({
   activeNode,
   isConnected
 }) {
+  const vScale = typeof window !== 'undefined'
+  ? Math.max(1, Math.min(window.innerWidth / 1440, 2.2))
+  : 1;
+
+  const baseFontSize  = 9.5 * vScale;
+  const labelFontSize = 8   * vScale;
+  const nodeR         = Math.round(9  * vScale);
+  const outerR        = Math.round(20 * vScale);
+  const glowR         = Math.round(22 * vScale);
+  const lh            = Math.round(12 * vScale);
+
   const color = ELEM_COLOR[node.elem];
 
   const isHidden = hiddenElems?.has(node.elem);
@@ -48,7 +59,6 @@ export default function Node({
   if (cur) lines.push(cur);
   if (lines.length > 3) lines = lines.slice(0, 3);
 
-  const lh = 12;
   const lw =
     Math.max(...lines.map(l => l.length * 5.8)) + 12;
   const lhTotal = lines.length * lh + 6;
@@ -65,35 +75,17 @@ export default function Node({
         transition: 'opacity 0.4s ease, filter 0.3s ease'
       }}
     >
-      <circle
-        r="22"
-        fill={color}
-        opacity="0.06"
-        className="node-glow"
-      />
+      <circle r={glowR}  fill={color} opacity="0.06" className="node-glow" />
+      <circle r={outerR} fill="none" stroke={color} strokeWidth="1" opacity="0.4" className="node-outer" />
+      <circle r={nodeR}  fill={color} opacity="0.9"  className="node-core" />
 
-      <circle
-        r="20"
-        fill="none"
-        stroke={color}
-        strokeWidth="1"
-        opacity="0.4"
-        className="node-outer"
-      />
-
-      <circle
-        r="9"
-        fill={color}
-        opacity="0.9"
-        className="node-core"
-      />
-
+      {/* rect height/width also use lh */}
       <rect
         x={-(lw / 2)}
         y={ly}
         width={lw}
         height={lhTotal}
-        fill="var(--bg)"    
+        fill="var(--bg)"
         rx="3"
       />
 
@@ -101,10 +93,10 @@ export default function Node({
         <text
           key={i}
           x="0"
-          y={ly + 10 + i * lh}
+          y={ly + baseFontSize + i * lh}
           textAnchor="middle"
           fontFamily="Playfair Display, Georgia, serif"
-          fontSize="9.5"
+          fontSize={baseFontSize}
           fontWeight="600"
           fill="var(--text)"
         >
@@ -114,10 +106,10 @@ export default function Node({
 
       <text
         x="0"
-        y={ly + lhTotal + 10}
+        y={ly + lhTotal + labelFontSize + 2}
         textAnchor="middle"
         fontFamily="Space Mono, monospace"
-        fontSize="8"
+        fontSize={labelFontSize}
         letterSpacing="1.2"
         fill={color}
         opacity="0.85"

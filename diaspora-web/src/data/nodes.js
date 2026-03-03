@@ -19,7 +19,7 @@ export const NODES = [
     name: 'Louis Armstrong',
     date: '1901–1971',
     geo: 'Born in New Orleans, Louisiana. Performed globally. In 1956 played before 100,000 people in Accra, Ghana, one day before Ghanaian independence.',
-    desc: 'Louis Armstrong was born in New Orleans in 1901, decades after the gatherings at Congo Square had ended. However, the musical culture of New Orleans, brass bands, blues tonalities, polyrhythmic sensibilities, and improvisatory performance, developed in a city historically shaped by those earlier African assemblies. Armstrong inherited that environment rather than the Square itself. His trumpet and voice became global symbols of jazz, a form rooted in African diasporic musical logics that had survived in Louisiana. In 1956 he toured West Africa as part of a State Department cultural program and performed in Accra during the independence period, marking a symbolic return of jazz to the continent.',
+    desc: 'Louis Armstrong was born in New Orleans in 1901, decades after the gatherings at Congo Square had ended. However, the musical culture of New Orleans, brass bands, blues tonalities, polyrhythmic sensibilities, and improvisatory performance, developed in a city historically shaped by those earlier African assemblies. His trumpet and voice became global symbols of jazz, a form rooted in African diasporic musical logics that had survived in Louisiana. In 1956 he toured West Africa as part of a State Department cultural program and performed in Accra during the independence period, marking a symbolic return of jazz to the continent.',
     video: 'https://www.youtube.com/embed/rOH50WPb_gc?si=AQnEVjdCdDTTQDn9',
   },
   {
